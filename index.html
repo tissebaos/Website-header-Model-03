@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <title>Creative PLUS model's</title>
+  <link rel="stylesheet" href="css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <a href="#" class="topbar-nav nav-logo">
+        COVID-19
+        <span>Prevention</span>
+      </a>
+      <a onclick="menu_display('menu_items')" href="#" id="menu_display" class="topbar-nav nav-menu">
+        <i class="mdi mdi-menu"></i>
+      </a>
+    </div>
+
+    <div id="menu_items" class="small-screen-navs">
+      <ul class="nav-items">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">elements</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="prevention-container">
+      <div class="overlay"></div>
+      <div class="prevention-indicate">
+        <i id="btnUp" class="mdi mdi-chevron-double-up"></i>
+        <img src="images/stay-home.png" alt="" class="prevention-indicate-image">
+        <i id="btnDown" class="mdi mdi-chevron-double-down"></i>
+      </div>
+      <div id="circle" class="prevention-items">
+        <div class="prevention-item item1">
+          <img src="images/home.png" alt="#">
+          <div>
+            <h2>Prevention 1</h2>
+            <p>Rester chez vous autant que possible</p>
+          </div>
+        </div>
+        <div class="prevention-item item2">
+          <img src="images/distance.png" alt="#">
+          <div>
+            <h2>Prevention 2</h2>
+            <p>Gardez une distance de sécurité</p>
+          </div>
+        </div>
+        <div class="prevention-item item3">
+          <img src="images/wash-hand.png" alt="#">
+          <div>
+            <h2>Prevention 3</h2>
+            <p>Lavez-vous souvent les mains</p>
+          </div>
+        </div>
+        <div class="prevention-item item4">
+          <img src="images/cover.png" alt="#">
+          <div>
+            <h2>Prevention 4</h2>
+            <p>Couvrez-vous la bouche quand vous toussez</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filigranne">
+      <h5>disons non au COVID-19, respetons le confinement</h5>
+      <h3>stoppons le virus</h3>
+    </div>
+
+    <div class="social-media">
+      <a href="#"><i class="mdi mdi-facebook"></i></a>
+      <a href="#"><i class="mdi mdi-twitter"></i></a>
+      <a href="#"><i class="mdi mdi-instagram"></i></a>
+    </div>
+  </header>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
